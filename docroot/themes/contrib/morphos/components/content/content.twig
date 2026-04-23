@@ -1,0 +1,8 @@
+{% set classes = [
+  prose_size ? 'prose ' ~ prose_size,
+  'has-rhythm',
+] %}
+
+<div{{ attributes.addClass(classes) }}>
+  {{ content }}
+</div>

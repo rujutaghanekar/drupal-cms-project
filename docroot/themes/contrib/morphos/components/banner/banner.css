@@ -1,0 +1,15 @@
+/*!
+ * Project Name: Morphos (morpht/morphos)
+ * File: components/banner/banner.css
+ * Copyright (c) 2026 Morpht Pty Ltd
+ */
+
+@reference "../../tailwindcss";
+
+.banner__breadcrumbs + .banner__kicker {
+  @apply mt-4;
+}
+
+.banner__title {
+  @apply m-0;
+}
